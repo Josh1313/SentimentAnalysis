@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+cat >> .gitignore <<EOF
+# Never commit OpenAI keys
+*.key
+*.env
+EOF
